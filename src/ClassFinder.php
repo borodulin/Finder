@@ -40,6 +40,7 @@ class ClassFinder implements FinderInterface
                         yield $class;
                     }
                 } catch (ParseException $exception) {
+                    // skip files with parse error
                 }
             }
         }
