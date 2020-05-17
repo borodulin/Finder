@@ -1,0 +1,33 @@
+{
+    "name": "borodulin/finder",
+    "description": "Class finder",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Borodulin",
+            "email": "borodulin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpstan/phpstan": "^0.12",
+        "phpunit/phpcov": "^7.0",
+        "php-coveralls/php-coveralls": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Borodulin\\Finder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Borodulin\\Finder\\Tests\\": "tests/"
+        }
+    }
+}
